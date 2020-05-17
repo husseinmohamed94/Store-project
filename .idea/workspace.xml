@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3cdd5283-eb89-4310-8d1d-e5382dfb08e0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="ProjectId" id="1afVfxv3DSDyuBj9KPQuIVyn0Mr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/models" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\mvcapp\app\lib" />
+      <recent name="C:\xampp\htdocs\mvcapp\app\lib\template" />
+      <recent name="C:\xampp\htdocs\mvcapp\app" />
+      <recent name="C:\xampp\htdocs\mvcapp\app\controllers\config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\mvcapp\app\models" />
+      <recent name="C:\xampp\htdocs\mvcapp\app\views" />
+      <recent name="C:\xampp\htdocs\mvcapp\app\controllers" />
+      <recent name="C:\xampp\htdocs\mvcapp\app\views\users" />
+      <recent name="C:\xampp\htdocs\mvcapp\app\languages\en\users" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="create.lang.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/app/languages/ar/usersgroups/create.lang.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.create.lang.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cdd5283-eb89-4310-8d1d-e5382dfb08e0" name="Default Changelist" comment="" />
+      <created>1587126741827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587126741827</updated>
+      <workItem from="1587126743572" duration="1230000" />
+      <workItem from="1587128842056" duration="645000" />
+      <workItem from="1587132303017" duration="1794000" />
+      <workItem from="1587135005130" duration="37463000" />
+      <workItem from="1587210528216" duration="26554000" />
+      <workItem from="1587242907661" duration="221000" />
+      <workItem from="1587244020978" duration="936000" />
+      <workItem from="1587489331388" duration="5516000" />
+      <workItem from="1587495348899" duration="8551000" />
+      <workItem from="1587503982212" duration="798000" />
+      <workItem from="1587580107727" duration="4599000" />
+      <workItem from="1587589030658" duration="1059000" />
+      <workItem from="1587591819131" duration="1336000" />
+      <workItem from="1587667916883" duration="1666000" />
+      <workItem from="1587761993518" duration="3043000" />
+      <workItem from="1587835477656" duration="16666000" />
+      <workItem from="1587856285302" duration="2603000" />
+      <workItem from="1587917743736" duration="20859000" />
+      <workItem from="1588006270656" duration="16959000" />
+      <workItem from="1588093259161" duration="14205000" />
+      <workItem from="1588176451769" duration="13592000" />
+      <workItem from="1588352290647" duration="11795000" />
+      <workItem from="1588445777508" duration="7347000" />
+      <workItem from="1588453770815" duration="397000" />
+      <workItem from="1588522709993" duration="13235000" />
+      <workItem from="1588605461826" duration="17764000" />
+      <workItem from="1588698531934" duration="42000" />
+      <workItem from="1588698580441" duration="8564000" />
+      <workItem from="1588872566496" duration="16678000" />
+      <workItem from="1588957853634" duration="1733000" />
+      <workItem from="1588960105828" duration="1613000" />
+      <workItem from="1588965008152" duration="1770000" />
+      <workItem from="1588975291261" duration="18000" />
+      <workItem from="1589127620849" duration="14000" />
+      <workItem from="1589127885178" duration="617000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="134" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587842339024">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="134" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1360.728@0.0.1360.728" timestamp="1587842339024" />
+    <state x="291" y="46" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588880150750">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="291" y="46" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1360.728@0.0.1360.728" timestamp="1588880150750" />
+    <state x="410" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1588016356343">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="410" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1360.728@0.0.1360.728" timestamp="1588016356343" />
+    <state x="399" y="52" key="#create.lang.php" timestamp="1588015883332">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="399" y="52" key="#create.lang.php/0.0.1360.728@0.0.1360.728" timestamp="1588015883332" />
+    <state x="460" y="119" key="FileChooserDialogImpl" timestamp="1588698574932">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="460" y="119" key="FileChooserDialogImpl/0.0.1360.728@0.0.1360.728" timestamp="1588698574932" />
+    <state x="149" y="196" width="411" height="369" key="NewPhpClassDialog" timestamp="1588708048186">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="149" y="196" width="411" height="369" key="NewPhpClassDialog/0.0.1360.728@0.0.1360.728" timestamp="1588708048186" />
+    <state x="141" y="260" key="NewPhpFileDialog" timestamp="1588880179076">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="141" y="260" key="NewPhpFileDialog/0.0.1360.728@0.0.1360.728" timestamp="1588880179076" />
+    <state x="132" y="11" key="SettingsEditor" timestamp="1587842132721">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="132" y="11" key="SettingsEditor/0.0.1360.728@0.0.1360.728" timestamp="1587842132721" />
+    <state x="376" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1589127892644">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="376" y="188" key="com.intellij.ide.util.TipDialog/0.0.1360.728@0.0.1360.728" timestamp="1589127892644" />
+    <state x="376" y="96" width="607" height="536" key="find.popup" timestamp="1588536632590">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="376" y="96" width="607" height="536" key="find.popup/0.0.1360.728@0.0.1360.728" timestamp="1588536632590" />
+    <state x="336" y="162" key="run.anything.popup" timestamp="1588533565864">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="336" y="162" key="run.anything.popup/0.0.1360.728@0.0.1360.728" timestamp="1588533565864" />
+    <state x="343" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1588965780771">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="343" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1360.728@0.0.1360.728" timestamp="1588965780771" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/lib/sessionmanager.php</url>
+          <line>62</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/languages/ar/privileges/default.lang.php</url>
+          <line>6</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/controllers/testcontroller.php</url>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/languages/ar/users/create.lang.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/lib/validate.php</url>
+          <line>30</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/lib/validate.php</url>
+          <line>35</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/lib/validate.php</url>
+          <line>43</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/lib/validate.php</url>
+          <line>49</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/models/usermodel.php</url>
+          <line>59</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/app/lib/frontcontroller.php</url>
+          <line>46</line>
+          <properties>
+            <option name="className" value="\PHPMVC\LIB\FrontController" />
+            <option name="methodName" value="dispatch" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/app/lib/template/template.php</url>
+          <line>107</line>
+          <properties>
+            <option name="className" value="\PHPMVC\LIB\Template\Template" />
+            <option name="methodName" value="renderFooterResources" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/app/lib/sessionmanager.php</url>
+          <line>84</line>
+          <properties>
+            <option name="className" value="\PHPMVC\LIB\SessionManager" />
+            <option name="methodName" value="start" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/app/lib/sessionmanager.php</url>
+          <line>102</line>
+          <properties>
+            <option name="className" value="\PHPMVC\LIB\SessionManager" />
+            <option name="methodName" value="checkSessionValidity" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/app/lib/sessionmanager.php</url>
+          <line>138</line>
+          <properties>
+            <option name="className" value="\PHPMVC\LIB\SessionManager" />
+            <option name="methodName" value="isValidFingerPrint" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/app/lib/language.php</url>
+          <line>49</line>
+          <properties>
+            <option name="className" value="\PHPMVC\LIB\Language" />
+            <option name="methodName" value="getDictionary" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/app/controllers/userscontroller.php</url>
+          <line>150</line>
+          <properties>
+            <option name="className" value="\PHPMVC\Controllers\UsersController" />
+            <option name="methodName" value="checkUserExistsAjaxAction" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/app/lib/template/template.php</url>
+          <line>29</line>
+          <properties>
+            <option name="className" value="\PHPMVC\LIB\Template\Template" />
+            <option name="methodName" value="setAppData" />
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

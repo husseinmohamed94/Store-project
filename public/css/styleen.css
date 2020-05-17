@@ -1,0 +1,813 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+@charset "utf-8";
+
+/* CSS Document */
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    border:none;
+    outline:none;
+    line-height:1.2;
+    font-size:1em;
+}
+
+div.wrapper{
+    overflow: hidden;
+
+}
+div.wrapper div.employees{
+    margin: 0 auto;
+    width: 780px;
+}
+form.appform{
+    width:400px;
+    margin:20px auto;
+}
+form.appform fieldset{
+    background-color:#f1f1f1;
+    border:1px solid #e4e4e4;
+    padding:10px;
+}
+form.appform fieldset legend{
+    background-color:#e4e4e4;
+    padding:5px;
+    font-size:20px;
+    color:#666;
+}
+form.appform fieldset p.message{
+    background-color:#060;
+    padding:3px;
+    font-size:20px;
+    color:#fff;
+    margin:3px 0;
+    border-radius:3px;
+}
+form.appform fieldset p.message.error{
+    background-color:#900;
+
+}
+
+table{
+    width:100%;
+}
+lable{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    color:#66666;
+}
+table tr td{
+    padding:3px 0;
+}
+table tr td input[type=text],
+table tr td input[type=number]
+{
+    font-size: 18px;
+    padding:2%;
+    width:96%;
+
+}
+table tr td input[type=submit]{
+    padding:8px;
+    border-radius:3px;
+    background:#060;
+    color:#fff;
+}
+table{
+    width: 800px;
+    margin: 20px 22px 0 0;
+    border-collapse: collapse;
+
+}
+table thead th{
+    text-align: left;
+
+    padding: 5px;
+    border-right: solid 2px #e4e4e4;
+    border-bottom: solid 2px #e4e4e4;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+table thead th:last-of-type{
+    border-right: none;
+}
+
+table tbody td{
+    color: #666666;
+    text-align: center;
+    padding: 5px;
+    border: solid 2px #e4e4e4;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table tbody tr:nth-child(2){
+    background: #f1f1f1;
+}
+table tbody td a:link,
+table tbody td a:visited
+{
+    color: #0ba1ec;
+}
+.dataTables_filter,.dataTables_info{
+
+    float: right;
+    padding-top: 30px;
+}
+
+.dataTables_length,.dataTables_paginate {
+    float: left;
+    padding-top: 30px;
+}
+
+.wrapper .message{
+    background-color: #1c7430;
+    margin: 30px auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+.employees .a-info{
+    margin-top: 30px;
+
+}
+
+
+
+
+
+
+.main{
+    background-color: #2c7ca4;
+    padding:5px;
+    color: #f1f1f1;
+    position: relative;
+    text-align: left;
+    padding-left:80px;
+}
+.main h1{
+    margin-right: 60px;
+
+}
+.main h1 a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.user_menu_container{
+    float:right;
+    margin: -49px 59px;
+
+}
+.user_menu_container span{
+    color: black;
+    margin: 5px 2px;
+}
+.user_menu_container ul {
+    list-style: none;
+    margin: 5px;
+}
+.user_menu_container ul li {
+    color: #f1f1f1;
+    margin: 5px;
+}
+.user_menu_container ul li a {
+    color: #000000;
+    margin: 5px;
+}
+
+
+.user_menu_container2{
+    position: absolute;
+    top: 16px;
+    right: 260px;
+    margin: 5px;
+    color: #f1f1f1;
+}
+.user_menu_container2 a{
+
+    margin: 5px;
+    color: #f1f1f1;
+}
+
+div.wrapper header.main div.user_menu_container ul.user_menu li a:link,
+div.wrapper header.main div.user_menu_container ul.user_menu li a:visited {
+    color: #000000;
+    font-size: 0.8em;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    border-bottom: solid 1px #000000;
+}
+
+div.wrapper header.main a.menu_switch:link,
+div.wrapper header.main a.menu_switch:visited {
+    color: #FFF;
+    font-size: 1.5em;
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    text-align: center;
+    float: right;
+    transition: all 0.3s ease-in-out;
+}
+div.wrapper header.main a.menu_switch.opened {
+    transform: rotate(90deg);
+}
+
+.info-dropdown {
+    background: none;
+    text-align: right;
+}
+
+.info-nav{
+    float: left;
+    margin-top: -60px;
+    margin-left: 7px;
+}
+.info-div-nav {
+    background-color: #000000;
+    color: #f1f1f1;
+    margin-right: -16px;
+    margin-top: 8px;
+    height: 700px;
+    width: 200px;
+
+}
+
+div.wrapper nav.main_navigation div.profile_picture {
+    height: 90px;
+    width: 90px;
+    border-radius: 80px;
+    border: solid 5px #FFF;
+    margin: 20px auto;
+}
+
+div.wrapper nav.main_navigation div.employee_info span.name,
+div.wrapper nav.main_navigation div.employee_info span.privilege {
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+    color: #FFF;
+    font-size: 0.85em;
+    text-align: center;
+}
+
+div.wrapper nav.main_navigation div.employee_info span.name {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+div.wrapper nav.main_navigation div.employee_info span.privilege {
+    margin: 0 auto;
+    color: #408eba;
+}
+
+
+div.wrapper nav.main_navigation ul.app_navigation {
+    margin: 20px 0;
+    list-style: none;
+}
+
+
+
+div.wrapper nav.main_navigation div.employee_info span.name {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+div.wrapper nav.main_navigation div.employee_info span.privilege {
+    margin: 0 auto;
+    color: #408eba;
+}
+
+div.wrapper nav.main_navigation ul.app_navigation {
+    margin: 20px 0;
+    list-style: none;
+}
+
+div.wrapper nav.main_navigation ul.app_navigation li:first-child a {
+    border-top: solid 1px #273339;
+}
+
+nav.main_navigation ul.app_navigation li a:link,
+nav.main_navigation ul.app_navigation li a:visited {
+    color: #b8c7ce;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background: #222d32;
+    transition: all 0.3s ease-in-out;
+    border-bottom: solid 1px #273339;
+    box-sizing: border-box;
+    border-right: solid 5px transparent;
+}
+
+nav.main_navigation ul.app_navigation li a:hover,
+nav.main_navigation ul.app_navigation li a:active,
+nav.main_navigation ul.app_navigation li a.selected,
+nav.main_navigation ul.app_navigation li.selected > a,
+nav.main_navigation ul.app_navigation li.submenu.selected > a {
+    background: #666666;
+    color: #b8c7ce;
+    border-right: solid 5px #408eba;
+    border-bottom: solid 1px transparent;
+}
+
+
+nav.main_navigation ul.app_navigation li a:link,
+nav.main_navigation ul.app_navigation li a:visited {
+    color: #b8c7ce;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background: #0c0d0d;
+    transition: all 0.3s ease-in-out;
+    border-bottom: solid 1px #273339;
+    box-sizing: border-box;
+    border-right: solid 5px transparent;
+}
+
+
+nav.main_navigation ul.app_navigation li a > i {
+    display: block;
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    font-size: 1.2em !important;
+}
+
+nav.main_navigation ul.app_navigation li.submenu ul {
+    background-color: #222;
+    padding: 10px 0;
+    border-right: solid 5px transparent;
+    display: none;
+}
+
+nav.main_navigation ul.app_navigation li.submenu:hover ul,
+nav.main_navigation ul.app_navigation li.submenu.selected ul {
+    border-right: solid 5px #408eba;
+}
+
+div.wrapper nav.main_navigation ul.app_navigation li.submenu.selected ul {
+    display: block;
+}
+
+nav.main_navigation ul.app_navigation li.submenu ul li a:link,
+nav.main_navigation ul.app_navigation li.submenu ul li a:visited {
+    background-color: transparent;
+    border: none;
+    font-size: 0.85em;
+    padding: 0px 45px 0px 0;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.wrapper div.action_view {
+    padding: 20px;
+    background: #FFF;
+    transition: all 0.3s ease-in-out;
+    min-height: calc(100% - 86px);
+}
+
+div.wrapper div.action_view.collapsed {
+    margin-right: 250px;
+}
+
+div.wrapper div.action_view.collapsed.no_animation {
+    transition: none !important;
+}
+
+
+
+
+div.wrapper div.action_view form.appForm {
+    width: 100%;
+    margin: 0 auto;
+}
+
+div.wrapper div.action_view form.appForm fieldset {
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: solid 1px #e4e4e4;
+}
+
+div.wrapper div.action_view form.appForm fieldset legend {
+    padding: 5px 10px;
+    color: #FFF;
+    background: #408eba;
+    line-height: 1.5;
+}
+
+div.wrapper div.action_view form.appForm.n10 {
+    width: 10%;
+}
+div.wrapper div.action_view form.appForm.n20 {
+    width: 20%;
+}
+div.wrapper div.action_view form.appForm.n30 {
+    width: 30%;
+}
+div.wrapper div.action_view form.appForm.n40 {
+    width: 40%;
+}
+div.wrapper div.action_view form.appForm.n50 {
+    width: 50%;
+}
+div.wrapper div.action_view form.appForm.n60 {
+    width: 60%;
+}
+div.wrapper div.action_view form.appForm.n70 {
+    width: 70%;
+}
+div.wrapper div.action_view form.appForm.n80 {
+    width: 80%;
+}
+div.wrapper div.action_view form.appForm.n90 {
+    width: 90%;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper {
+    width: 100%;
+    position: relative;
+    height: 55px;
+    clear: both;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper.n10,
+div.wrapper div.action_view form.appForm div.input_wrapper.n20,
+div.wrapper div.action_view form.appForm div.input_wrapper.n30,
+div.wrapper div.action_view form.appForm div.input_wrapper.n40,
+div.wrapper div.action_view form.appForm div.input_wrapper.n50,
+div.wrapper div.action_view form.appForm div.input_wrapper.n60,
+div.wrapper div.action_view form.appForm div.input_wrapper.n70,
+div.wrapper div.action_view form.appForm div.input_wrapper.n80,
+div.wrapper div.action_view form.appForm div.input_wrapper.n90 {
+    float: right;
+    clear: none;
+    box-sizing: border-box;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper.n10 {
+    width: 10%;
+}
+div.wrapper div.action_view form.appForm div.input_wrapper.n20 {
+    width: 20%;
+}
+div.wrapper div.action_view form.appForm div.input_wrapper.n30 {
+    width: 30%;
+}
+div.wrapper div.action_view form.appForm div.input_wrapper.n40 {
+    width: 40%;
+}
+div.wrapper div.action_view form.appForm div.input_wrapper.n50 {
+    width: 50%;
+}
+div.wrapper div.action_view form.appForm div.input_wrapper.n60 {
+    width: 60%;
+}
+div.wrapper div.action_view form.appForm div.input_wrapper.n70 {
+    width: 70%;
+}
+div.wrapper div.action_view form.appForm div.input_wrapper.n80 {
+    width: 80%;
+}
+div.wrapper div.action_view form.appForm div.input_wrapper.n90 {
+    width: 90%;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper.border {
+    border-left: solid 1px #e4e4e4;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper_other {
+    width: 100%;
+    position: relative;
+    min-height: 55px;
+    clear: both;
+    border-top: solid 1px transparent;
+    border-bottom: solid 1px #e4e4e4;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper_other.n10,
+div.wrapper div.action_view form.appForm div.input_wrapper_other.n20,
+div.wrapper div.action_view form.appForm div.input_wrapper_other.n30,
+div.wrapper div.action_view form.appForm div.input_wrapper_other.n40,
+div.wrapper div.action_view form.appForm div.input_wrapper_other.n50,
+div.wrapper div.action_view form.appForm div.input_wrapper_other.n60,
+div.wrapper div.action_view form.appForm div.input_wrapper_other.n70,
+div.wrapper div.action_view form.appForm div.input_wrapper_other.n80,
+div.wrapper div.action_view form.appForm div.input_wrapper_other.n90 {
+    float: right;
+    clear: none;
+    box-sizing: border-box;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper_other.n10 {
+    width: 10%;
+}
+div.wrapper div.action_view form.appForm div.input_wrapper_other.n20 {
+    width: 20%;
+}
+div.wrapper div.action_view form.appForm div.input_wrapper_other.n30 {
+    width: 30%;
+}
+div.wrapper div.action_view form.appForm div.input_wrapper_other.n40 {
+    width: 40%;
+}
+div.wrapper div.action_view form.appForm div.input_wrapper_other.n50 {
+    width: 50%;
+}
+div.wrapper div.action_view form.appForm div.input_wrapper_other.n60 {
+    width: 60%;
+}
+div.wrapper div.action_view form.appForm div.input_wrapper_other.n70 {
+    width: 70%;
+}
+div.wrapper div.action_view form.appForm div.input_wrapper_other.n80 {
+    width: 80%;
+}
+div.wrapper div.action_view form.appForm div.input_wrapper_other.n90 {
+    width: 90%;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper_other.border {
+    border-left: solid 1px #e4e4e4;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper_other label.radio,
+div.wrapper div.action_view form.appForm div.input_wrapper_other label.checkbox {
+    margin-left: 10px;
+    height: 20px;
+    display: inline-block;
+    line-height: 1.5;
+    font-size: 0.85em;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper_other label:first-child {
+    display: block;
+    margin: 7px 0;
+    font-size: 0.85em;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper_other label.radio div.radio_button,
+div.wrapper div.action_view form.appForm div.input_wrapper_other label.checkbox div.checkbox_button {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    cursor: pointer;
+    background: #e4e4e4;
+    float: right;
+    margin-left: 5px;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper_other label.radio.block,
+div.wrapper div.action_view form.appForm div.input_wrapper_other label.checkbox.block {
+    display: block;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper_other label.checkbox div.checkbox_button {
+    border-radius: 0px;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper_other label.radio:hover div.radio_button,
+div.wrapper div.action_view form.appForm div.input_wrapper_other label.checkbox:hover div.checkbox_button {
+    background: #ccc;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper_other label.radio input[type=radio]:checked + div.radio_button,
+div.wrapper div.action_view form.appForm div.input_wrapper_other label.checkbox input[type=checkbox]:checked + div.checkbox_button {
+    background: #408eba;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper_other label.checkbox input[type=checkbox]:checked + div.checkbox_button::after {
+    font-family: FontAwesome;
+    display: inline-block;
+    content: '\f00c';
+    color: #FFF;
+    font-size: 0.9em;
+    margin: 1px;
+    text-align: center;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper_other label.radio input[type=radio],
+div.wrapper div.action_view form.appForm div.input_wrapper_other label.checkbox input[type=checkbox] {
+    opacity: 1;
+    position: absolute;
+    z-index: -1;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper_other.select {
+    position: relative;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper_other select {
+    background: #f7f7f7;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 0;
+    border: solid 1px #f7f7f7;
+    padding: 5px 15px;
+    line-height: 1.7;
+    display: block;
+    margin-top: 8px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper_other select:focus {
+    outline: none;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper_other.select::after {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+    content: 'keyboard_arrow_down';
+    position: absolute;
+    top: 15px;
+    left: 5px;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper_other textarea {
+    background: #f7f7f7;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid 1px #f7f7f7;
+    display: block;
+    margin: 8px 0;
+    padding: 20px;
+    font-size: 0.85em;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper label {
+    position: absolute;
+    font-size: 0.9em;
+    bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper label.floated {
+    bottom: 30px;
+    font-size: 0.75em;
+    color: #408eba;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper_other.padding {
+    padding-right: 10px;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper.padding label {
+    right: 10px;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper input {
+    width: 100%;
+    height: 30px;
+    border-bottom: solid 1px #e4e4e4;
+    position: absolute;
+    background: transparent;
+    font-size: 1em;
+    bottom: 0;
+    transition: all 0.3s ease-in-out;
+    color: #222;
+    box-sizing: border-box;
+    padding: 0 0 0 10px;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper.padding input {
+    padding: 0 10px;
+}
+
+div.wrapper div.action_view form.appForm input[type=submit] {
+    width: 80px;
+    font-size: 1em;
+    color: #FFF;
+    padding: 5px;
+    line-height: 1.5;
+    background: #408eba;
+    margin: 10px 0;
+    float: right;
+    clear: both;
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
+    border: solid 1px transparent;
+}
+
+div.wrapper div.action_view form.appForm input[type=submit]:hover,
+div.wrapper div.action_view form.appForm input[type=submit]:active,
+div.wrapper div.action_view form.appForm input[type=submit]:focus {
+    background: #FFF;
+    color: #408eba;
+    border: solid 1px #408eba;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper input:focus {
+    background: none !important;
+    border-bottom: solid 2px #408eba;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper > i {
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    text-align: center;
+    width: 20px;
+    height: 18px;
+    color: #FFF;
+    border-radius: 20px;
+    padding-top: 2px;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper > i.error {
+    background: #900;
+}
+
+div.wrapper div.action_view form.appForm div.input_wrapper > i.success {
+    background: darkgreen;
+}
+
+
+p.message {
+    font-size: 0.95em;
+    background-color: #222;
+    color: #FFF;
+    padding: 5px 10px;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+    position: relative;
+}
+
+p.message a:link, p.message a:visited {
+    position: absolute;
+    left: 7px;
+    color: inherit;
+    top: 7px;
+}
+
+p.message.t1 {
+    background-color: #68ab68;
+}
+
+p.message.t2 {
+    background-color: #900;
+}
+
+p.message.t3 {
+    background-color: #e2b072;
+}
+
+p.message.t4 {
+    background-color: #408eba;
+}
+
+a.button:link, a.button:visited {
+    display: inline-block;
+    background: #408eba;
+    color: #FFF;
+    border-radius: 2px;
+    padding: 10px 10px 7px 10px;
+    font-size: 0.8em;
+    margin: 0 0 20px 0;
+    text-decoration: none;
+}
